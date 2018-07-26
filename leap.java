@@ -31,7 +31,7 @@ class Ideone
 		if(leap==true)
 			System.out.println("yes");
 		else
-			System.out.println("No");
+			System.out.println("no");
 		
 	}    
 		
