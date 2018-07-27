@@ -21,8 +21,8 @@ class Ideone
     c=c+(a*a*a);  
     }  
     if(temp==c)  
-    System.out.println("Yes");   
+    System.out.println("yes");   
     else  
-        System.out.println("No");   
+        System.out.println("no");   
 	}
 }
