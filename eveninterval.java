@@ -22,7 +22,7 @@ class Ideone
 	     }
 	  	
 	     if(num%2==0)
-	  System.out.print(num+"\t");
+	  System.out.print(num+" ");
 	  num++;
 	}
 	}	
