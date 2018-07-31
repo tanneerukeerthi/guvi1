@@ -13,7 +13,7 @@ class Ideone
 		Scanner s=new Scanner(System.in);
 		 num=s.nextInt();
 	         k=s.nextInt();
-		for(i=0;i<n;i++)
+		for(i=0;i<num;i++)
 		{
 			a[i]=s.nextInt();
 		}
