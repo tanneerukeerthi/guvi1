@@ -8,20 +8,19 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int i,n,sum=0;
-		Scanner s=new Scanner(System.in);
-		 n=s.nextInt();
-		
-		int k=s.nextInt();
+		int i,k,num,sum=0;
 		int a[]=new int[10];
+		Scanner s=new Scanner(System.in);
+		 num=s.nextInt();
+	         k=s.nextInt();
 		for(i=0;i<n;i++)
 		{
 			a[i]=s.nextInt();
 		}
 		for(i=0;i<k;i++)
-	{
-		sum=sum+a[i];
-	}
-	System.out.println(sum);
-}
+	          {
+		       sum=sum+a[i];
+	             }
+	       System.out.println(sum);
+        }
 }
