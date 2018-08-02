@@ -8,7 +8,7 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		
-        int i, j, a, n,number;
+        int i, j, a, n;
          int arr[]=new int[30];
     		Scanner sc=new Scanner(System.in);
         	n=sc.nextInt();
