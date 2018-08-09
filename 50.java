@@ -1,5 +1,3 @@
-/* package whatever; // don't place package name! */
-
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -13,6 +11,8 @@ class Ideone
 			Scanner sc=new Scanner(System.in);
 			n=sc.nextInt();
 			if(n%2==0)
+			System.out.println("yes");
+			else if(n%2==1)
 			System.out.println("yes");
 			else
 			System.out.println("no");
