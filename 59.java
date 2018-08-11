@@ -9,19 +9,19 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int n,r,sum=0;
+		int n,r,count=0;
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();
 		if(n>0)
 		{
 		     while(n!=0)
 		      {
-				n=n%10;
-				sum=sum+n;
+				r=n%10; 
+				count++;
 				n=n/10;
 				
 		      }
-		    System.out.println(sum);  
+		    System.out.println(count);  
 		}
 		else
 		System.out.println("enter only positive numbers");
