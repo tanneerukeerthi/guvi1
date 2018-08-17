@@ -14,7 +14,7 @@ class Ideone
 		int m=s.nextInt();
 		int p=n*m;
 		int fl=0;
-		if(n>0)
+		if(n>0&&m>0)
 		{
 			if(n==0 || m==0)
 			{
