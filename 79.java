@@ -18,20 +18,22 @@ class Ideone
 		{
 			if(n==0 || m==0)
 			{
-			System.out.println("yes");
+		             	System.out.println("yes");
 			}
 			else if(n==m)
 			{
-			System.out.print("yes");
+			       System.out.print("yes");
 			}
 			else
 			{
-			for(int i=1;i<=p/2;i++)
-			{
+			        for(int i=1;i<=p/2;i++)
+			         {
 				if((i*i)==p)
 				{
-				fl=1;
-				break;
+				            fl=1;
+			             	break;
+				}
+			         }	
 			}
 		
 			if(fl==1)
